@@ -1,6 +1,6 @@
-_BASE_: "./detectron2_repo/configs/Base-RCNN-FPN.yaml"
+_BASE_: "/content/detectron2_repo/configs/Base-RCNN-FPN.yaml"
 MODEL:
-  WEIGHTS: "./output/model_final.pth"
+  WEIGHTS: "/content/output/model_final.pth"
   MASK_ON: True
   RESNETS:
     DEPTH: 50
